@@ -28,6 +28,12 @@ public class CollectionUtilsTest {
 
     }
 
+    /*
+    Implement a method that uses **Java Stream API** to find and return an element
+    of the given list that starts with a provided value.
+    If there is no such element - throw a RuntimeException
+     */
+
     @Test
     public void findElementStartsWithAValueTest() {
         List<Integer> elements = Arrays.asList(32, 15, 8, 28, 45, 8, 85, 32, 14);
