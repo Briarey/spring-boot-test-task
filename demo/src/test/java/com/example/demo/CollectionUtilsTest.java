@@ -16,7 +16,7 @@ public class CollectionUtilsTest {
     elements in the given list
      */
     @Test
-    public void findFirstRepeatedCharacterInStringTest() {
+    public void findAllDuplicationsTest() {
 
         List<Integer> elements = Arrays.asList(32, 15, 8, 28, 45, 8, 85, 32, 14);
 
